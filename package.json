@@ -1,0 +1,50 @@
+{
+  "name": "pressroster",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "fixtures:generate": "tsx scripts/generate-fixtures.ts",
+    "check": "tsx scripts/check-batch.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "vendor": "node scripts/copy-vendor.mjs",
+    "predev": "npm run vendor",
+    "prebuild": "npm run vendor",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@cantoo/pdf-lib": "^2.11.1",
+    "next": "16.4.6",
+    "papaparse": "^5.7.1",
+    "pdfjs-dist": "^6.5.438",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zxing-wasm": "^3.1.6"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "^1.1.1",
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/turbopack": "4.3.3",
+    "@types/node": "^22.20.5",
+    "@types/papaparse": "^5.5.2",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "qrcode": "^1.5.4",
+    "tailwindcss": "4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vitest": "^5.1.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

@@ -1,0 +1,4 @@
+﻿location_id,location_name,expected_qr_url,width,height,unit
+STORE-001,"Downtown, Main St",https://order.example.com/s/STORE-001?utm_source=window&loc=001#menu,11,17,in
+STORE-002,"Airport ""T2"" Kiosk",https://order.example.com/s/STORE-002,210,297,mm
+0042,Harbor Pier,  https://order.example.com/s/0042  ,60.96,91.44,cm

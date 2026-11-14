@@ -1,0 +1,5 @@
+location_id,expected_qr_url,width,height,unit
+STORE-001,https://order.example.com/s/STORE-001,11,17,in
+STORE-002,https://order.example.com/s/STORE-002,11,17,in
+STORE-001,https://order.example.com/s/STORE-001,11,17,in
+store-002 ,https://order.example.com/s/STORE-002,11,17,in

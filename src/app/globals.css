@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f6f3;
+  --surface: #ffffff;
+  --foreground: #1c1b19;
+  --muted: #6b6760;
+  --border: #e3e0da;
+  --brand: #1f5f8b;
+  --pass: #1d7a46;
+  --pass-bg: #e3f4ea;
+  --mismatch: #b42318;
+  --mismatch-bg: #fde8e6;
+  --review: #8a5a00;
+  --review-bg: #fdf1d6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #131312;
+    --surface: #1d1c1a;
+    --foreground: #ecebe8;
+    --muted: #a19d95;
+    --border: #34322e;
+    --brand: #7fb6dd;
+    --pass: #6fd49a;
+    --pass-bg: #163322;
+    --mismatch: #ff8f85;
+    --mismatch-bg: #3d1714;
+    --review: #f2c160;
+    --review-bg: #3a2c0c;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-brand: var(--brand);
+  --color-pass: var(--pass);
+  --color-pass-bg: var(--pass-bg);
+  --color-mismatch: var(--mismatch);
+  --color-mismatch-bg: var(--mismatch-bg);
+  --color-review: var(--review);
+  --color-review-bg: var(--review-bg);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}

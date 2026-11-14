@@ -1,0 +1,11 @@
+location_id,expected_qr_url,width,height,unit
+STORE-001,https://order.example.com/s/STORE-001,11,17,in
+STORE-002,ftp://files.example.com/STORE-002,11,17,in
+STORE-003,/s/STORE-003,11,17,in
+STORE-004,https://order.example.com/s/STORE-004,-11,17,in
+STORE-005,https://order.example.com/s/STORE-005,11,0,in
+STORE-006,https://order.example.com/s/STORE-006,11,17,inches
+,https://order.example.com/s/STORE-007,11,17,in
+STORE-008,https://order.example.com/s/STORE-008,11,17,in,extra
+STORE/009,https://order.example.com/s/STORE-009,11,17,in
+STORE-010,https://order.example.com/s/STORE-010,"8,5",11,in

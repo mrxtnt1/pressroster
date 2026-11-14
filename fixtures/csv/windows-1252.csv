@@ -1,0 +1,2 @@
+location_id,expected_qr_url,width,height,unit
+CAFé-01,https://order.example.com/s/CAFE-01,11,17,in
